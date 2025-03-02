@@ -557,7 +557,7 @@ section.portfolio {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
 }
 
 /* #endregion */
