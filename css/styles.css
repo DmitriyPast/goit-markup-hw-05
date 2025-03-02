@@ -736,9 +736,9 @@ section.portfolio {
 }
 
 .fmi-cb {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+  /* display: flex; */
+  /* align-items: center; */
+  /* gap: 8px; */
 }
 
 .cb-accept {
@@ -835,6 +835,7 @@ section.portfolio {
 }
 
 .fi-mr {
-  margin-right: 24px;
+  margin-right: 8px;
 }
+
 /* #endregion */
