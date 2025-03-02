@@ -55,7 +55,9 @@
           <h1 class="hero-text center mb-hero">
             Effective Solutions for Your Business
           </h1>
-          <button class="order-btn center" type="button">Order Service</button>
+          <button class="order-btn ws-btn center" type="button">
+            Order Service
+          </button>
         </div>
       </section>
       <!-- #endregion -->
@@ -418,10 +420,11 @@
       </section>
       <!-- #endregion -->
     </main>
+    <!-- #region footer -->
     <footer class="ws-bottom ws-bottom-bg">
-      <div class="container ftr-container">
-        <div class="logo-text-container">
-          <a class="ws-logo ws-ftr" href="./index.html" target="_self">
+      <div class="container">
+        <div class="logo-text-container fc-mb /*ftr-container">
+          <a class="ws-logo ws-ftr fi-mb" href="./index.html" target="_self">
             Web<span class="ws-logo-white">Studio</span>
           </a>
           <p class="text-white ws-desc">
@@ -429,8 +432,8 @@
             digital marketing & growth solutions.
           </p>
         </div>
-        <div class="social-links-container">
-          <p class="text-white social-links-caption">Social media</p>
+        <div class="sc-links-container fc-mb">
+          <p class="text-white text-caption fi-mb">Social media</p>
           <ul class="social-links">
             <li class="links-item">
               <a class="link links-bg" href="">
@@ -462,15 +465,107 @@
             </li>
           </ul>
         </div>
+        <div class="sub-form-container">
+          <p class="text-white text-caption fi-mb">Subscribe</p>
+          <form class="sub-form" action="">
+            <input class="form-input sub-form-input" type="text" name="email" placeholder="E-mail" required/>
+            <button class="subscr-btn ws-btn">
+              Subscribe
+              <svg class="" width="24" height="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
-    <div class="modal-overlay">
+    <!-- #endregion -->
+
+    <!-- #region modal overlay -->
+    <div class="modal-overlay -is-open">
       <div class="modal">
-        <fieldset>
-          <legend>Leave your contacts and we will call you back</legend>
-          
-        </fieldset>
+        <div class="cbtn-block fc-mb">
+          <button class="close-btn">
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#modal-close"></use>
+            </svg>
+          </button>
+        </div>
+        <form class="fmodal">
+          <!-- <fieldset style="border: none"> -->
+          <legend class="fheading-text fi-mb">
+            Leave your contacts and we will call you back
+          </legend>
+          <label class="fmodal-label ti-mb">
+            Name
+            <div class="fmi-container ti-mt">
+              <input
+                class="form-input fi-pl"
+                name="name"
+                type="text"
+                required
+              />
+              <svg class="fmodal-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-person"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="fmodal-label ti-mb">
+            Phone
+            <div class="fmi-container ti-mt">
+              <input
+                class="form-input fi-pl"
+                name="phone"
+                type="text"
+                required
+              />
+              <svg class="fmodal-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-phone"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="fmodal-label ti-mb">
+            Email
+            <div class="fmi-container ti-mt">
+              <input class="form-input fi-pl" name="email" type="text" />
+              <svg class="fmodal-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-email"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="fmodal-label fi-mb">
+            Comment
+            <div class="fmi-container ti-mt">
+              <textarea
+                class="form-input multiline"
+                name="comment"
+                title="balld"
+                id=""
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </label>
+
+          <label class="fmodal-label fmi-cb fc-mb">
+            <input
+              class="cb-accept visually-hidden"
+              type="checkbox"
+              name="accept"
+              id=""
+            />
+            <span class="custom-cb">
+              <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons.svg#form-check"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="pp-link" href="">Privacy Policy</a>
+          </label>
+          <button class="send-btn ws-btn center" type="submit">Send</button>
+          <!-- </fieldset> -->
+        </form>
       </div>
     </div>
+    <!-- #endregion -->
   </body>
 </html>
