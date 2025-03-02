@@ -465,7 +465,107 @@
             </li>
           </ul>
         </div>
+        <div class="sub-form-container">
+          <p class="text-white text-caption fi-mb">Subscribe</p>
+          <form class="sub-form">
+            <input class="form-input sub-form-input" type="text" name="email" placeholder="E-mail" required/>
+            <button class="subscr-btn ws-btn">
+              Subscribe
+              <svg class="" width="24" height="24">
+                  <use href="./images/icons.svg#send"></use>
+                </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
+    <!-- #endregion -->
+
+    <!-- #region modal overlay -->
+    <div class="modal-overlay is-open">
+      <div class="modal">
+        <div class="cbtn-block fc-mb">
+          <button class="close-btn">
+            <svg class="close-icon" width="8" height="8">
+              <use href="./images/icons.svg#modal-close"></use>
+            </svg>
+          </button>
+        </div>
+        <form class="fmodal">
+          <p class="fheading-text fi-mb">
+            Leave your contacts and we will call you back
+          </p>
+          <label class="fmodal-label ti-mb">
+            Name
+            <fieldset class="fmi-container ti-mt">
+              <!-- <div class=""> -->
+                <input
+                class="form-input fi-pl"
+                name="name"
+                type="text"
+                required
+                />
+                <svg class="fmodal-icon" width="18" height="24">
+                  <use href="./images/icons.svg#form-person"></use>
+                </svg>
+              </fieldset>
+            <!-- </div> -->
+          </label>
+          <label class="fmodal-label ti-mb">
+            Phone
+            <div class="fmi-container ti-mt">
+              <input
+                class="form-input fi-pl"
+                name="phone"
+                type="text"
+                required
+              />
+              <svg class="fmodal-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-phone"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="fmodal-label ti-mb">
+            Email
+            <div class="fmi-container ti-mt">
+              <input class="form-input fi-pl" name="email" type="text" />
+              <svg class="fmodal-icon" width="18" height="24">
+                <use href="./images/icons.svg#form-email"></use>
+              </svg>
+            </div>
+          </label>
+          <label class="fmodal-label fi-mb">
+            Comment
+            <div class="fmi-container ti-mt">
+              <textarea
+                class="form-input multiline"
+                name="comment"
+                title="balld"
+                id=""
+                placeholder="Text input"
+              ></textarea>
+            </div>
+          </label>
+
+          <label class="fmodal-label fmi-cb fc-mb">
+            <input
+              class="cb-accept visually-hidden"
+              type="checkbox"
+              name="accept"
+              id=""
+            />
+            <span class="custom-cb">
+              <svg class="check-icon" width="10" height="8">
+                <use href="./images/icons.svg#form-check"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a class="pp-link" href="">Privacy Policy</a>
+          </label>
+          <button class="send-btn ws-btn center" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+    <!-- #endregion -->
   </body>
 </html>
