@@ -691,6 +691,7 @@ section.portfolio {
 
 .form-input {
   background: none;
+   color: rgba(46, 47, 66, 0.4);
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   width: 360px;
@@ -730,6 +731,7 @@ section.portfolio {
 
 .multiline {
   height: 120px;
+  font-size: 12px;
   resize: none;
 }
 
