@@ -472,7 +472,7 @@ section.portfolio {
   display: flex;
   align-items: baseline;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 
 /* .block {
@@ -519,8 +519,9 @@ section.portfolio {
 }
 
 .sub-form-container {
-  width: 453px;
-  height: 80px;
+  /* width: 453px;
+  height: 80px; 
+  useless class*/
   margin: 0;
 }
 
@@ -542,11 +543,13 @@ section.portfolio {
   /* font-family: "Roboto", sans-serif; */
   /* font-weight: 400; */
   font-size: 12px;
-
-  line-height: 2;
-  line-height: 24px;
+  line-height: 2;/* line-height: 24px; */
   /* letter-spacing: 0.04em; */
   color: #fff;
+}
+
+.form-input.sub-form-input::placeholder {
+  color: #fff
 }
 
 .subscr-btn {
@@ -705,7 +708,7 @@ section.portfolio {
   padding: 8px 16px;
 }
 
-.form-input::placeholder {
+.form-input.fmi::placeholder {
   color: rgba(46, 47, 66, 0.4);
 }
 
@@ -735,15 +738,15 @@ section.portfolio {
   resize: none;
 }
 
-.fmi-cb {
+/* .fmi-cb { */
   /* display: flex; */
   /* align-items: center; */
   /* gap: 8px; */
-}
+/* } */
 
-.cb-accept {
+/* .cb-accept { */
   /* appearance: none; */
-}
+/* } */
 
 .custom-cb {
   border-radius: 2px;
@@ -768,7 +771,8 @@ section.portfolio {
 }
 
 .check-icon {
-  /* fill: #fcfcfc */
+  /* fill: #fcfcfc 
+  useless class*/
 }
 
 .pp-link {
@@ -780,16 +784,16 @@ section.portfolio {
 }
 
 .send-btn {
-  border-radius: 4px;
-  padding: 16px 32px;
+  /* border-radius: 4px; */
+  /* padding: 16px 32px; */
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background: #4d5ae5;
+  /* background: #4d5ae5; */
   min-width: 169px;
   height: 56px;
   border: none;
   /* margin: auto; */
 
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Roboto", sans-serif; */
   font-weight: 500;
   font-size: 16px;
 
